@@ -3,6 +3,7 @@ resource "azurerm_resource_group" "name" {
     location = "eastus"
     tags = {
       owner="santhosh"
+      owner="vcube"
  }
   
 }
